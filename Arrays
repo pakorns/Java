@@ -1,6 +1,15 @@
+/* Example Array anv ArrayList   */
+
 class ArrayExample{
 public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Array one dimention
+		int[] n = new int[4];
+		n[0]=3; 
+		n[1]=4;
+		n[2]=2;
+		n[3]=6;
+		//Display value : 
+		System.out.println("One dimention : "+ n[0]);
 		
 		///
 		ArrayList<Integer> list =new ArrayList<>();
@@ -9,8 +18,12 @@ public static void main(String[] args) {
 		list.add(65);
 		list.add(77);
 		list.add(68);
+		System.out.println("Display vlalue from ArrayList : "); 
 		System.out.println(list);
 	
 }
 output: 
+One dimention : 3
+Display value from ArrayList :
 [20, 30, 65, 77, 68]
+
