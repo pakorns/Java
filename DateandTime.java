@@ -1,8 +1,12 @@
+/*
+*Display date and time
+*/
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class DandTime {
+public class DateandTime {
 
 	public static void main(String[] args) {
 		LocalDate d = LocalDate.now();
